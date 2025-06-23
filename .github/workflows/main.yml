@@ -10,6 +10,9 @@ on:
  
 env:
   CSV_URL: "MLproject/train_pca.csv"
+
+permissions:
+  contents: write # Ini memberikan hak tulis ke token di seluruh workflow
  
 jobs:
   build:
